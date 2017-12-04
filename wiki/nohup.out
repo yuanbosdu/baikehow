@@ -1,0 +1,4 @@
+[uWSGI] parsing config file uwsgi.xml
+uwsgi: invalid option -- 'X'
+getopt_long() error
+[uWSGI] parsing config file uwsgi.xml

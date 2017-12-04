@@ -1,0 +1,13 @@
+<uwsgi>
+    <uid>www-data</uid>
+    <gid>www-data</gid>
+    <plugin>python</plugin>
+    <socket>/home/baikehow/moin-1.9.9/moin.sock</socket>
+    <wsgi-file>/home/baikehow/moin-1.9.9/wiki/moin.wsgi</wsgi-file>
+    <limit-as>256</limit-as>
+    <processes>8</processes>
+    <logto>/var/log/uwsgi/uwsgi.log</logto>
+    <memory-report/>
+    <vhost/>
+    <no-site/>
+</uwsgi>
