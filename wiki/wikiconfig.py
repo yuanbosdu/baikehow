@@ -116,7 +116,7 @@ class Config(multiconfig.DefaultConfig):
     # SMTP server, e.g. "mail.provider.com" (None to disable mail)
     #mail_smarthost = ""
 
-    # The return address, e.g u"Jürgen Wiki <noreply@mywiki.org>" [Unicode]
+    # The return address, e.g u"JÃ¼rgen Wiki <noreply@mywiki.org>" [Unicode]
     #mail_from = u""
 
     # "user pwd" if you need to use SMTP AUTH
@@ -160,16 +160,10 @@ class Config(multiconfig.DefaultConfig):
     #page_dict_regex = ur'(?P<all>(?P<key>\S+)Dict)'
     #page_group_regex = ur'(?P<all>(?P<key>\S+)Group)'
     #page_template_regex = ur'(?P<all>(?P<key>\S+)Template)'
-    page_category_regex = ur'(?P<all>(?P<prefix>Category)?(?P<key>\S+)(?(prefix)|¿|¿|¿))'
-    page_dict_regex = ur'(?P<all>(?P<key>\S+)(Dict|¿¿))'
-    page_group_regex = ur'(?P<all>(?P<key>\S+)(Group|¿))'
-    page_template_regex = ur'(?P<all>(?P<key>\S+)(Template|¿¿))'
-
-
-    page_category_regex = ur'(?P<all>(?P<prefix>Category)?(?P<key>\S+)(?(prefix)|¿|¿|¿))'
-    page_dict_regex = ur'(?P<all>(?P<key>\S+)(Dict|¿¿))'
-    page_group_regex = ur'(?P<all>(?P<key>\S+)(Group|¿))'
-    page_template_regex = ur'(?P<all>(?P<key>\S+)(Template|¿¿))'
+    page_category_regex = ur'(?P<all>(?P<prefix>Category)?(?P<key>\S+)(?(prefix)|ç±»|ç¯‡|ç« ))'
+    page_dict_regex = ur'(?P<all>(?P<key>\S+)(Dict|å­—å…¸))'
+    page_group_regex = ur'(?P<all>(?P<key>\S+)(Group|ç»„))'
+    page_template_regex = ur'(?P<all>(?P<key>\S+)(Template|æ¨¡æ¿))'
 
     # Content options ---------------------------------------------------
 
