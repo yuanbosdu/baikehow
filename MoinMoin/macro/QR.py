@@ -1,3 +1,6 @@
+# -*- coding: iso-8859-1 -*-
+
+#apt-get install qrencode
 import os
 from subprocess import Popen, PIPE
 from hashlib import sha1
