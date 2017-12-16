@@ -75,13 +75,13 @@ class Config(multiconfig.DefaultConfig):
     # name of entry page / front page [Unicode], choose one of those:
 
     # a) if most wiki content is in a single language
-    #page_front_page = u"MyStartingPage"
+    page_front_page = u"RecentChanges"
 
     # b) if wiki content is maintained in many languages
     #page_front_page = u"FrontPage"
 
     # The interwiki name used in interwiki links
-    #interwikiname = u'UntitledWiki'
+    interwikiname = u'HowBaike'
     # Show the interwiki name (and link it to page_front_page) in the Theme,
     # nice for farm setups or when your logo does not show the wiki's name.
     #show_interwiki = 1
@@ -97,6 +97,7 @@ class Config(multiconfig.DefaultConfig):
     # your user name. See HelpOnAccessControlLists for more help.
     # All acl_rights_xxx options must use unicode [Unicode]
     acl_rights_before = u"howbaike:read,write,delete,revert,admin"
+    acl_rights_default= u"All:read EditorGroup:read,write"
 
     # The default (ENABLED) password_checker will keep users from choosing too
     # short or too easy passwords. If you don't like this and your site has
@@ -149,21 +150,17 @@ class Config(multiconfig.DefaultConfig):
     # YOUR language that other people contributed.
 
     # The main wiki language, set the direction of the wiki pages
-    language_default = 'zh-CN'
+    language_default = 'zh'
 
     # the following regexes should match the complete name when used in free text
     # the group 'all' shall match all, while the group 'key' shall match the key only
     # e.g. CategoryFoo -> group 'all' ==  CategoryFoo, group 'key' == Foo
     # moin's code will add ^ / $ at beginning / end when needed
     # You must use Unicode strings here [Unicode]
-    #page_category_regex = ur'(?P<all>Category(?P<key>(?!Template)\S+))'
-    #page_dict_regex = ur'(?P<all>(?P<key>\S+)Dict)'
-    #page_group_regex = ur'(?P<all>(?P<key>\S+)Group)'
-    #page_template_regex = ur'(?P<all>(?P<key>\S+)Template)'
-    page_category_regex = ur'(?P<all>(?P<prefix>Category)?(?P<key>\S+)(?(prefix)|类|篇|章))'
-    page_dict_regex = ur'(?P<all>(?P<key>\S+)(Dict|字典))'
-    page_group_regex = ur'(?P<all>(?P<key>\S+)(Group|组))'
-    page_template_regex = ur'(?P<all>(?P<key>\S+)(Template|模板))'
+    page_category_regex = ur'(?P<all>Category(?P<key>(?!Template)\S+))'
+    page_dict_regex = ur'(?P<all>(?P<key>\S+)Dict)'
+    page_group_regex = ur'(?P<all>(?P<key>\S+)Group)'
+    page_template_regex = ur'(?P<all>(?P<key>\S+)Template)'
 
     # Content options ---------------------------------------------------
 
