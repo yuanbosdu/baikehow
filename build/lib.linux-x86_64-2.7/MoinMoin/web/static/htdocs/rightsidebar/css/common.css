@@ -6,10 +6,10 @@ Copyright (c) 2001, 2002, 2003 by Juergen Hermann
 /* content styles */
 
 html {
-    background-color: white;
-    color: black;
-    font-family: Arial, Lucida Grande, sans-serif;
-    font-size: 1em;
+  background-color: #fafafa;
+  color: black;
+  font-family: -apple-system,"Helvetica Neue",Helvetica,Arial,"PingFang SC","Hiragino Sans GB","WenQuanYi Micro Hei","Microsoft Yahei",sans-serif;
+  font-size: 1em;
 }
 
 
@@ -237,7 +237,7 @@ strong.highlight
 }
 
 .rcdaybreak td {
-    background: tan;
+    background: #009a61;
     border: none;
 }
 

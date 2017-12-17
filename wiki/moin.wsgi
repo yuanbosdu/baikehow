@@ -32,6 +32,7 @@ import sys, os
 #sys.path.insert(0, '/path/to/wikiconfigdir')
 #sys.path.insert(0, '/path/to/farmconfigdir')
 sys.path.insert(0, '/home/baikehow/env/lib/python2.7/site-packages/')
+sys.path.insert(0, '/home/baikehow/moin/')
 sys.path.insert(0, '/home/baikehow/moin/wiki/')
 
 

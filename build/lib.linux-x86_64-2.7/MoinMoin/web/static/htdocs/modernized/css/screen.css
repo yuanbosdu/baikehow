@@ -53,7 +53,7 @@ textarea {
 #header {
     margin: 1px;
     padding: 1px;
-    background: #e6eaf0;
+    background: white;
     line-height: 1.1em;
 }
 
@@ -206,13 +206,13 @@ textarea {
 }
 
 #navibar li:hover {
-    background: #d6e4f9;
+    background: #009a61;
 }
 
 #navibar li.current, #navibar li.current:hover {
-    background: #81BBF2; /* url(../img/tab-selected.png) repeat-x; */
-    border: 1px solid #4d7da9;
-    border-bottom: 1px solid #81bbf2;
+    background: #009a61; /* url(../img/tab-selected.png) repeat-x; */
+    border: 1px solid #009a61;
+    border-bottom: 1px solid white;
     margin-bottom: -1px;
 }
 
