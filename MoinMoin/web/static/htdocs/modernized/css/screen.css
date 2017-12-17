@@ -226,7 +226,7 @@ textarea {
     line-height: 4px;
     border-bottom: 1px solid #4d7da9;
     border-top: 1px solid #4d7da9;
-    background: #81BBF2;
+    background: #009a61;
 }
 
 .editbar {
@@ -234,8 +234,9 @@ textarea {
     display: block;
     margin: 0;
     padding: 2px 8px;
-    background: #d6e4f9;
+    background: #009a61;
     font-size: 0.8em;
+    color:white;
     border-bottom: 1px solid #4d7da9;
     border-top: 1px solid #4d7da9;
     margin-top: -1px;
