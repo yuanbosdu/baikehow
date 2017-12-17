@@ -16,7 +16,7 @@ html {
 /* links */
 
 a {color: #333;}
-a:hover {color: white;}
+a:hover {color: #009a61;}
 
 a.nonexistent:visited, a.badinterwiki:visited,
 a.nonexistent, a.badinterwiki {color: #404040;}
@@ -233,7 +233,7 @@ strong.highlight
     vertical-align: top;
     border: none;
     border-bottom: 1pt solid #F0ECE6;
-    background: #F7F6F2;
+    background: white;
 }
 
 .rcdaybreak td {
