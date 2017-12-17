@@ -6,287 +6,287 @@ Copyright (c) 2001, 2002, 2003 by Juergen Hermann
 /* content styles */
 
 body {
-    margin: 0;
-    padding: 0;
-    border: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
 
 a.download {
-    font-size: 120%; 
-    letter-spacing: 0.05em;
-    font-weight: bold;
-    background: #E7E7E7;
-    border: 1px solid #9C9C9C;
-    padding: 0.5em;
-    text-align: center;
+  font-size: 120%;
+  letter-spacing: 0.05em;
+  font-weight: bold;
+  background: #E7E7E7;
+  border: 1px solid #9C9C9C;
+  padding: 0.5em;
+  text-align: center;
 }
 
 .footnotes div {
-    width: 5em;
-    border-top: 1px solid #e5e5e5;
+  width: 5em;
+  border-top: 1px solid #e5e5e5;
 }
 
 input {
-    font-size: 1em;
-    font-family: Arial, Lucida Grande, sans-serif;
+  font-size: 1em;
+  font-family: Arial, Lucida Grande, sans-serif;
 }
 
 textarea {
-    font-size: 1em;
-    font-family: monospace;
+  font-size: 1em;
+  font-family: monospace;
 }
 
 span.sep {
-    display: none;
+  display: none;
 }
 
 /* user interface styles */
 
 #header {
-    background: #e5e5e5;
-    border-bottom: 1px solid #9C9C9C;
-    line-height: 1.1em;
+  background: white;
+  border-bottom: 1px solid #009a61;
+  line-height: 1.1em;
 }
 
 #logo {
-    float: left;
-    margin: 5px 10px;
-    padding: 0;
-    /* For text only logo */
-    font-size: 1.4em;
-    line-height: 1em;
-    font-weight: bold;
+  float: left;
+  margin: 5px 10px;
+  padding: 0;
+  /* For text only logo */
+  font-size: 1.4em;
+  line-height: 1em;
+  font-weight: bold;
 }
 
 *[dir="rtl"] #logo {
-    float: right;
+  float: right;
 }
 
 #logo img {
-    vertical-align: middle;
+  vertical-align: middle;
 }
 
 #logo a {
-    color: black;
-    text-decoration: none;
+  color: black;
+  text-decoration: none;
 }
 
 #searchform {
-    float: right;
-    margin: 5px 10px 0 10px;
-    padding: 0;
-    white-space: nowrap;
+  float: right;
+  margin: 5px 10px 0 10px;
+  padding: 0;
+  white-space: nowrap;
 }
 
 *[dir="rtl"] #searchform {
-    float: left;
+  float: left;
 }
 
 #searchform form div {
-    display: inline;
+  display: inline;
 }
 
 #page {
-    margin: 10px 220px 10px 10px;
-    padding: 4px;
-    border: 1px solid #9c9c9c;
-    border-bottom: 2px solid #9c9c9c;
-    background-color: white;
+  margin: 10px 220px 10px 10px;
+  padding: 4px;
+  border: 1px solid #009a61;
+  border-bottom: 2px solid #009a61;
+  background-color: white;
 }
 
 #sidebar {
-    display: inline;
-    margin: 10px;
-    float: right;
-    clear: right;
-    width: 200px;
-    padding: 0;    
-    font-size: 0.88em;
-    color:white;
-    overflow: hidden;
+  display: inline;
+  margin: 10px;
+  float: right;
+  clear: right;
+  width: 200px;
+  padding: 0;
+  font-size: 0.88em;
+  color:white;
+  overflow: hidden;
 }
 
 .sidepanel {
-    margin: 0 0 10px 0;
-    float: right;
-    width: 200px;    
-    background: #009a61;
-    border: 1px solid #9c9c9c;
-    border-bottom: 2px solid #9c9c9c;                              
+  margin: 0 0 10px 0;
+  float: right;
+  width: 200px;
+  background: #009a61;
+  border: 1px solid #9c9c9c;
+  border-bottom: 2px solid #9c9c9c;
 }
 
 .sidepanel h1 {
-    margin: 0;
-    padding: 0.2em 10px;
-    text-align: center;
-    border: none;
-    border-top: 1px solid white;
-    border-bottom: 1pt solid #009a61;
-    font-size: 1em;
-    color: white;
-    background: #009a61;
+  margin: 0;
+  padding: 0.2em 10px;
+  text-align: center;
+  border: none;
+  border-top: 1px solid white;
+  border-bottom: 1pt solid #009a61;
+  font-size: 1em;
+  color: white;
+  background: #009a61;
 }
 
 .sidepanel h2 {
-    margin: 0;
-    padding: 0.2em 10px;
-    font-size: 1em;
-    border: none;
-    color: white;
-    background: #009a61;
+  margin: 0;
+  padding: 0.2em 10px;
+  font-size: 1em;
+  border: none;
+  color: white;
+  background: #009a61;
 }
 
 .sidepanel ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .sidepanel li {
-    margin: 0;
-    padding: 2px 10px;
-    border-bottom: 1pt solid #009a61;
-    background: #009a61;
+  margin: 0;
+  padding: 2px 10px;
+  border-bottom: 1pt solid #009a61;
+  background: #009a61;
 }
 
 .sidepanel li form {
-    margin: 0;
+  margin: 0;
 }
 
 .sidepanel a {
-    text-decoration: none;
-    display: block;
+  text-decoration: none;
+  display: block;
 }
 
 .sidepanel a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .actionsmenu select {
-    width: 180px;
+  width: 180px;
 }
 
 #pagetrail {
-    clear: right;
-    margin: 5px 11px;
-    padding: 0;
-    font-size: 0.88em;
+  clear: right;
+  margin: 5px 11px;
+  padding: 0;
+  font-size: 0.88em;
 }
 
 *[dir="rtl"] #pagetrail {
-    clear: left;
-    margin: 0px 11px;
+  clear: left;
+  margin: 0px 11px;
 }
 
 #interwiki {
-    margin: 5px 11px;
-    display: inline;
-    font-size: 1em;
+  margin: 5px 11px;
+  display: inline;
+  font-size: 1em;
 }
 
 *[dir="rtl"] #interwiki {
-    margin: 0;
+  margin: 0;
 }
 
 #interwiki span:after {
-    content: ":";
+  content: ":";
 }
 
 #locationline {
-    clear: right;
-    padding: 3px 0;
+  clear: right;
+  padding: 3px 0;
 }
 
 *[dir="rtl"] #locationline {
-    clear: left;
+  clear: left;
 }
 
 #pagelocation {
-    display: inline;
-    margin: 0 0.25em;
-    padding: 0px 3px;
-    font-size: 1.5em;
+  display: inline;
+  margin: 0 0.25em;
+  padding: 0px 3px;
+  font-size: 1.5em;
 }
 
 #pagetrail li, #pagelocation li {
-    display: inline;
-    margin: 0;
+  display: inline;
+  margin: 0;
 }
 
 /* XXX Warning: non-ascii characters! */
 #pagetrail li:after {
-    content: " » ";
+  content: " » ";
 }
 
 *[dir="rtl"] #pagetrail li:after {
-    content: " « ";
+  content: " « ";
 }
 
 #pagetrail li:last-child:after {
-    content: "";
+  content: "";
 }
 
 #pagelocation li:after {
-    content: "/ ";
+  content: "/ ";
 }
 
 *[dir="rtl"] #pagelocation li:after {
-    content: " \\ "; /* TODO: check what looks best with RTL */
+  content: " \\ "; /* TODO: check what looks best with RTL */
 }
 
 #pagelocation li:last-child:after {
-    content: "";
+  content: "";
 }
 
 #navibar li.current {
-    border: none;
-    background: #BFAE8F;
+  border: none;
+  background: #BFAE8F;
 }
 
 .editbar form, .editbar form div {
-    display: inline;
-    margin: 0;
+  display: inline;
+  margin: 0;
 }
 
 #message {
-    margin: 10px 220px 10px 10px;
-    padding: 4px;
-    background-color: #F0ECE6;
-    border: 1px solid #9c9c9c;
-    border-bottom: 2px solid #9c9c9c;
+  margin: 10px 220px 10px 10px;
+  padding: 4px;
+  background-color: #F0ECE6;
+  border: 1px solid #9c9c9c;
+  border-bottom: 2px solid #9c9c9c;
 }
 
 #message p {
-    margin: 5px 0;
-    padding: 0;
-    font-weight: bold;
+  margin: 5px 0;
+  padding: 0;
+  font-weight: bold;
 }
 
 #message div.buttons {
-    font-weight: normal;
+  font-weight: normal;
 }
 
 form.dialog {
-    margin: 0 15px;
+  margin: 0 15px;
 }
 
 .dialog td {
-    border: none;
-    padding: 5px;
+  border: none;
+  padding: 5px;
 }
 
 .dialog td.label {
-    text-align: right;
-    font-weight: bold;
-    width: 25%;
+  text-align: right;
+  font-weight: bold;
+  width: 25%;
 }
 
 *[dir="rtl"] .dialog td.label {
-    text-align: left;
+  text-align: left;
 }
 
 .dialog td.content input {
-    width: 100%;
+  width: 100%;
 }
 
 /* We use here dumb css1 ids because of IE suckiness */
@@ -294,120 +294,120 @@ form.dialog {
 #editor-textarea {width: 100%;}
 
 #preview, #previewbelow {
-    border: 2px solid #e5e5e5;
-    padding: .5em;
-    background: url(../img/draft.png);
+  border: 2px solid #e5e5e5;
+  padding: .5em;
+  background: url(../img/draft.png);
 }
 
 #textcha {
-    font-size: 100%;
-    margin-top: 0.5em;
-    border: 2px solid #FF8888;
-    color: black;
-    vertical-align: middle;
-    padding: 3px 2px;
+  font-size: 100%;
+  margin-top: 0.5em;
+  border: 2px solid #FF8888;
+  color: black;
+  vertical-align: middle;
+  padding: 3px 2px;
 }
 
 #textcha-answer {
-    border: 2px solid #000000;
-    padding: 3px 2px;
+  border: 2px solid #000000;
+  padding: 3px 2px;
 }
 
 #pagebottom {
-    clear: both;
+  clear: both;
 }
 
 #footer {
-    clear: both;
-    margin: 0;
-    padding: 0;
+  clear: both;
+  margin: 0;
+  padding: 0;
 }
 
 #credits, #version, #timings{
-    margin: 5px 10px;
-    padding: 0;
-    text-align: center;
-    font-size: 0.88em;
-    color: #6C7680;
+  margin: 5px 10px;
+  padding: 0;
+  text-align: center;
+  font-size: 0.88em;
+  color: #6C7680;
 }
 
 #credits li, #timings li {
-    display: inline;
-    padding: 0 2px;
-    margin: 0 4px;
+  display: inline;
+  padding: 0 2px;
+  margin: 0 4px;
 }
 
 #credits img {
-    vertical-align: middle;
+  vertical-align: middle;
 }
 
 .diff {
-    width: 99%;
-    table-layout: fixed;
+  width: 99%;
+  table-layout: fixed;
 }
 
 .diff-title {
-    background-color: #C0C0C0;
+  background-color: #C0C0C0;
 }
 
 .diff-added {
-    background-color: #E0FFE0;
-    vertical-align: top;
-    width: 50%;
-    white-space: pre-wrap;
-    word-wrap: break-word;
-    font-family: courier, monospace;
+  background-color: #E0FFE0;
+  vertical-align: top;
+  width: 50%;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  font-family: courier, monospace;
 }
 
 .diff-removed {
-    background-color: #FFFFE0;
-    vertical-align: top;
-    width: 50%;
-    white-space: pre-wrap;
-    word-wrap: break-word;
-    font-family: courier, monospace;
+  background-color: #FFFFE0;
+  vertical-align: top;
+  width: 50%;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  font-family: courier, monospace;
 }
 
 .diff-added span {
-    background-color: #80FF80;
+  background-color: #80FF80;
 }
 
 .diff-removed span {
-    background-color: #FFFF80;
+  background-color: #FFFF80;
 }
 
 td.diff-info {
-    vertical-align: top;
+  vertical-align: top;
 }
 
 div.diff-info {
-    white-space: nowrap;
+  white-space: nowrap;
 }
 
 div.diff-info-rev-comment span.diff-info-value {
-    white-space: normal;
+  white-space: normal;
 }
 
 div.diff-info-header {
-    background-color: #E8E8E8;
-    width: 100%;
-    padding: 0.25em 0.5em;
-    margin: -0.25em -0.5em;
-    margin-bottom: 0.25em;
-    text-align: center;
+  background-color: #E8E8E8;
+  width: 100%;
+  padding: 0.25em 0.5em;
+  margin: -0.25em -0.5em;
+  margin-bottom: 0.25em;
+  text-align: center;
 }
 
 td.diff-same {
-    text-align: center;
-    border: 0;
+  text-align: center;
+  border: 0;
 }
 
 .searchresult dd span {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 #openididentifier {
-    background: url(../../common/openid.png) no-repeat;
-    background-position: 0 50%;
-    padding-left: 18px;
+  background: url(../../common/openid.png) no-repeat;
+  background-position: 0 50%;
+  padding-left: 18px;
 }

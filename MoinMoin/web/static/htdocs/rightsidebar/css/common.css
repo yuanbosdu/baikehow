@@ -15,8 +15,8 @@ html {
 
 /* links */
 
-a {color: maroon;}
-a:hover {color: red;}
+a {color: #333;}
+a:hover {color: white;}
 
 a.nonexistent:visited, a.badinterwiki:visited,
 a.nonexistent, a.badinterwiki {color: #404040;}
