@@ -143,6 +143,8 @@ class Config(multiconfig.DefaultConfig):
     # The default theme anonymous or new users get
     theme_default = 'modernized'
 
+    debug='on'
+
 
     # Language options --------------------------------------------------
 

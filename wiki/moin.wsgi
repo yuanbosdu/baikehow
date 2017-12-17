@@ -39,8 +39,8 @@ sys.path.insert(0, '/home/baikehow/moin/wiki/')
 #    If you have set up MOINLOGGINGCONF environment variable, you don't need this!
 #    You also don't need this if you are happy with the builtin defaults.
 #    See wiki/config/logging/... for some sample config files.
-#from MoinMoin import log
-#log.load_config('/path/to/logging_configuration_file')
+from MoinMoin import log
+log.load_config('/home/baikehow/moin/wike/config/logging/logfile')
 
 from MoinMoin.web.serving import make_application
 

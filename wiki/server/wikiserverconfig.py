@@ -34,7 +34,7 @@ class LocalConfig(DefaultConfig):
 
     # should the exception evaluation feature be enabled?
     #use_evalex = True
-
+    debug = 'web'
     # Werkzeug run_simple arguments below here:
 
     # use '' for all interfaces or "1.2.3.4" for some specific IP
