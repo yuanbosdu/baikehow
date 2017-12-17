@@ -248,7 +248,7 @@ span.sep {
   margin: 0;
 }
 
-.editbar li a:hover {
+.editbar li a:hover, .wikilink a:hover {
   color: white;
 }
 
