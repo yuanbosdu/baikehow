@@ -8,12 +8,18 @@ from MoinMoin.Page import Page
 
 qr_options = ["-s", "4"]
 
+
 def png_path(request, pagename, text):
         return "/home/baikehow/moin/wiki/data/qr", png_filename(text)
+
+
 def png_url(request, pagename, text):
         return "/qr/" + png_filename(text)
+
+
 def png_filename(text):
         return sha1(text).hexdigest()[:16] + ".png"
+
 
 def macro_QR(macro, text=None):
         if text is None:
