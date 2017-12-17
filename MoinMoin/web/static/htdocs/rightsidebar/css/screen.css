@@ -248,6 +248,10 @@ span.sep {
   margin: 0;
 }
 
+.editbar li a:hover {
+  color: white;
+}
+
 #message {
   margin: 10px 220px 10px 10px;
   padding: 4px;
