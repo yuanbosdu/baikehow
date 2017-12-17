@@ -16,8 +16,8 @@ body {
 
 a:link { color: #47f; text-decoration: none; }
 a:link:hover, a:link:active { text-decoration: underline; color: green; }
-a:visited { text-decoration: none; color: black;}
-a:visited:hover { text-decoration: none; color: white; }
+a:visited { text-decoration: none; color: #333;}
+a:visited:hover { text-decoration: none; color: #009a61; }
 a.nonexistent:link { color: #666 }
 a.nonexistent:hover { color: black; text-decoration: underline }
 
@@ -45,7 +45,7 @@ textarea {
 
 .disabled {
     /* IE ignore disabled attribute, but at least show items in gray */
-    color: gray;
+    color: #666;
 }
 
 /* user interface styles */
